@@ -63,5 +63,5 @@ Built with modern web technologies and enhanced by AI-powered caption suggestion
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/MemeForge.git
+git clone https://github.com/BhaduryCodes/MemeForge.git
 cd MemeForge
