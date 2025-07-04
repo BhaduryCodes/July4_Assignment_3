@@ -1,77 +1,67 @@
-# MemeCraft 🎨😂
+# MemeForge 🎨🔥
 
-A sleek, open-source meme generator you can run locally or host online. Easily upload an image, drag-and-drop text elements, apply filters, and export your meme. Supports AI-generated captions, meme templates, and community sharing.
+Create, customize, and share memes with style. MemeForge is an open source meme generator with drag-and-drop tools, AI-assisted caption suggestions, and a community-powered meme template gallery.
 
 ---
 
-## 🧾 Table of Contents
+## 📝 Table of Contents
 
+- [Description](#description)
 - [Features](#features)
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Known Bugs](#known-bugs)
 - [Contributors](#contributors)
 - [License](#license)
 
 ---
 
-## 📝 Description
+## 📌 Description
 
-MemeCraft is a lightweight meme generator built for creators who want complete control and creativity without ads or watermark restrictions. Built using modern frontend technologies and integrated with AI caption suggestions, it's perfect for hobbyists, marketers, and content creators.
+**MemeForge** is a web-based meme creation tool built for speed, simplicity, and community. Upload your own images or choose from trending templates. Add text, drag it around, resize it, and download your meme instantly.
+
+Built with modern web technologies and enhanced by AI-powered caption suggestions, MemeForge helps both casual users and meme lords craft the perfect meme — without needing Photoshop or fancy design tools.
 
 ---
 
 ## 🚀 Features
 
-- 🖼 Upload images (JPG, PNG, GIF, WebP)
-- 🔤 Drag-and-drop text overlays
-- 🧠 AI-generated meme captions (via local or OpenAI integration)
-- 🎨 Filters and text styling
-- 🗂 Preloaded meme templates (Dogecoin, Drake, Distracted Boyfriend, etc.)
-- 📤 Export to PNG or JPEG
-- 🧪 Local template editor
-- 🌍 Optional template sharing via GitHub
+- 🔧 Drag-and-drop meme editor
+- 🧠 AI-powered caption suggestions (via local or cloud model)
+- 🖼️ Built-in community template gallery
+- 💾 Download memes as PNG or JPEG
+- 🗂️ Save drafts and edit later
+- 🌙 Dark mode support
+- 🌐 Mobile and desktop responsive
+- 🔥 Trending templates pulled from Reddit APIs (optional)
 
 ---
 
-## 💻 Technologies Used
+## 🧰 Technologies Used
 
-- **Frontend**: React, Vite, Tailwind CSS
-- **Backend**: Node.js (optional if enabling AI caption generator)
-- **Machine Learning**: OpenAI API / Local LLMs (for caption generation)
-- **Others**: HTML5 Canvas, FileSaver.js, react-draggable
+- **Frontend:**
+  - React.js
+  - Tailwind CSS
+  - Konva.js (for canvas manipulation)
+  - Axios
 
----
+- **Backend (optional):**
+  - Node.js + Express
+  - Python (for AI caption model - GPT-2 or OpenAI integration)
+  - MongoDB (for saved memes/templates)
 
-## 🐞 Known Bugs
-
-- Dragging text on mobile devices can be glitchy
-- Exported image resolution is fixed (scaling not yet customizable)
-- AI caption sometimes outputs inappropriate humor
-
----
-
-## 👨‍💻 Contributors
-
-- [@AhmadCodes](https://github.com/BhaduryCodes)
-- [@pixelghost](https://github.com/pixelghost)
-- [@laughbytes](https://github.com/laughbytes)
-
-Want to contribute? PRs are welcome!
+- **Other Tools:**
+  - OpenAI API or Hugging Face Transformers (caption generation)
+  - Vite (for fast dev builds)
+  - Docker (optional deployment)
 
 ---
 
-## 📦 Installation
+## 🛠️ Installation
 
+### 1. Clone the repo
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/memecraft.git
-cd memecraft
-
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
+git clone https://github.com/yourusername/MemeForge.git
+cd MemeForge
